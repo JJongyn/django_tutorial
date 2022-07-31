@@ -1,0 +1,10 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+
+
+{% for solved in all_solvedProbled %}
+    {{ solved.problem_ID }}
+{% endfor %}
+
+{% endblock %}

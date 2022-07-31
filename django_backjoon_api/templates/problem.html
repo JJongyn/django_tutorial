@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content %}
+  <div class = "container">
+    <div class = "text-center container">
+      <br>
+      <h2 class = "text-center">백준 api GET 방식 테스트 해보기</h2>
+      <h4 class = "text-center">user id 입력 하기</h4> 
+      <br>
+      <form method="GET">
+        <input type = "text" name = "user_id" placeholder="Search..." class = "text-center">
+        <button type = "submit" class = "btn-success btn-sm">테스트 시도!</button>
+      </form> 
+    </div> 
+{% for solved in all_solvedProbled %}
+    {{ solved.problem_ID }}
+{% endfor %}
+
+{% endblock %}
