@@ -2,7 +2,7 @@
 mysql을 이용한 간단한 회원가입 모델 구현입니다.
 ## Contents
 
-1. [Connecting django with mysql](#connecting-django-and-mysql) 
+1. [Connecting django with mysql](#connecting-django-with-mysql) 
 2. [Create admin](#create-admin) 
 3. [Create model](#create-model)
 4. [Check mysql connection with admin](#check-mysql-connetion-with-admin)
